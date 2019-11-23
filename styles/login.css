@@ -16,6 +16,7 @@ body{
     padding: 30px 0px;
     text-align: center;
     background: #181818;
+    border-radius: 7px;
 }
 .logo {
     display: flex;
