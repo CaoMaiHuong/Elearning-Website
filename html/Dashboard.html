@@ -34,7 +34,12 @@
                             <a href='./Course.html'>
                                 My Courses
                             </a>
-                        </div>  
+                        </div> 
+                        <div class="menu-item">
+                            <a href='./CourseTeacher.html'>
+                                Teacher Courses
+                            </a>
+                        </div>    
                     </div>
                     
                 </div>
@@ -57,7 +62,9 @@
                                 Project
                             </div>
                             <div class="section-header__button">
-                                + Add project
+                                <div class="section-header__button-project">
+                                    + Add project
+                                </div>
                             </div>
                         </div>
                         <div class="section-content">
@@ -71,6 +78,17 @@
                                             <a href='#'>
                                                 Project 1
                                             </a>
+                                            <div class="action menu-action">
+                                                <i class="fas fa-ellipsis-v"></i>
+                                            </div>
+                                            <div class="list-action">
+                                                <div class="edit-action">
+                                                    Rename
+                                                </div>
+                                                <div class="delete-action">
+                                                    Move to Trash
+                                                </div>
+                                            </div>
                                         </div>      
                                     </div>
                                 </div>
@@ -83,6 +101,17 @@
                                             <a href='#'>
                                                 Project 1
                                             </a>
+                                            <div class="action menu-action">
+                                                <i class="fas fa-ellipsis-v"></i>
+                                            </div>
+                                            <div class="list-action">
+                                                <div class="edit-action">
+                                                    Rename
+                                                </div>
+                                                <div class="delete-action">
+                                                    Move to Trash
+                                                </div>
+                                            </div>
                                         </div>      
                                     </div>
                                 </div>
@@ -95,6 +124,17 @@
                                             <a href='#'>
                                                 Project 1
                                             </a>
+                                            <div class="action menu-action">
+                                                <i class="fas fa-ellipsis-v"></i>
+                                            </div>
+                                            <div class="list-action">
+                                                <div class="edit-action">
+                                                    Rename
+                                                </div>
+                                                <div class="delete-action">
+                                                    Move to Trash
+                                                </div>
+                                            </div>
                                         </div>      
                                     </div>
                                 </div>
@@ -118,6 +158,9 @@
                             <div class="section-header__name">
                                 My courses
                             </div>
+                            <div class="section-header__button-course" id="addCourse">
+                                + Add course
+                            </div>
                         </div>
                         <div class="section-content">
                             <div class="section-content__list row">
@@ -142,6 +185,17 @@
                                             <a href='#'>
                                                 Project 1
                                             </a>
+                                            <div class="action menu-action">
+                                                <i class="fas fa-ellipsis-v"></i>
+                                            </div>
+                                            <div class="list-action">
+                                                <div class="edit-action">
+                                                    Rename
+                                                </div>
+                                                <div class="delete-action">
+                                                    Move to Trash
+                                                </div>
+                                            </div>
                                         </div>      
                                     </div>
                                 </div>
@@ -154,6 +208,17 @@
                                             <a href='#'>
                                                 Project 1
                                             </a>
+                                            <div class="action menu-action">
+                                                <i class="fas fa-ellipsis-v"></i>
+                                            </div>
+                                            <div class="list-action">
+                                                <div class="edit-action">
+                                                    Rename
+                                                </div>
+                                                <div class="delete-action">
+                                                    Move to Trash
+                                                </div>
+                                            </div>
                                         </div>      
                                     </div>
                                 </div>
@@ -175,5 +240,42 @@
                 </div>
             </div>
         </div>
+        <div id="openModalAddCourse" class="modal fade" role="dialog">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-content__top">
+                        <div class="modal-header">
+                            Tạo khóa học
+                        </div>
+                        <div class="modal-body">
+                            <form class="form-create">
+                                <div class="form-group course-name">
+                                    <label>Tên khóa học: </label>
+                                    <input class="form-control" name="name">
+                                </div>
+                                <div class="form-group course-description">
+                                    <label>Mô tả: </label>
+                                    <textarea class="form-control" maxlength="255" name="description"></textarea>
+                                </div>
+                                <div class="form-group course-image">
+                                    <label>Hình ảnh: </label>
+                                    <input type="file" name="image" accept="image/*">
+                                </div>
+                                <div class="form-group course-image">
+                                    <label>Dsnh sách sinh viên: </label>
+                                    <input type="file" name="student-list" accept=".csv" />
+                                </div>
+                            </form>                                            
+                        </div>
+                        <div class="modal-footer">
+                            <button class="start-exam">Thêm khóa học</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+        <script type="text/javascript" src="../script/dashboard.js"></script>
     </body>
 </html>

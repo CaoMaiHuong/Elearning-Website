@@ -13,21 +13,40 @@
 .item__name {
     align-items: center;
     margin-bottom: 25px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 .item__name span{
     margin-left: 5px;
+}
+.section-header__button-exercise {
+    font-size: 14px;
+    font-weight: bold;
+    background: #0099ff;
+    border: none;
+    border-radius: 25px;
+    color: #fff;
+    padding: 10px 17px;
+    cursor: pointer;
 }
 .exercise-item{
     color: #fff;
     background: #121318;
     border-radius: 5px;
-    padding: 20px;
+    padding: 20px 15px 20px 20px;
     margin-bottom: 15px;
     cursor: pointer;
 }
 .exercise-item__name {
     font-size: 16px;
-    font-weight: bold;
+    font-weight: bold;   
+}
+.exercise-item__name a {
+    color: #fff;
+    text-decoration: none;  
+}
+.exercise-item__header{
     margin-bottom: 10px;
     display: flex;
     justify-content: space-between;
@@ -46,35 +65,35 @@
     -webkit-box-orient: vertical;
 }
 
-.exercise-item__name .list-action {
+.exercise-item__header .list-action {
     position: absolute;
     background: #000;
     padding: 10px;
     z-index: 556;
-    bottom: -33px;
-    right: -78px;
+    top: -49px;
+    right: 38px;
     color: #fff;
     font-size: 14px;
     display: none;
 }
-.exercise-item__name .list-action.active{
+.exercise-item__header .list-action.active{
     display: block;
 }
-.exercise-item__name .edit-action {
+.exercise-item__header .edit-action {
     margin-bottom: 5px;
     cursor: pointer;
 }
-.exercise-item__name .delete-action{
+.exercise-item__header .delete-action{
     cursor: pointer;
 }
 .edit-action:hover, .delete-action:hover {
     color: #0099ff;
 }
-.exercise-item__name .action {
+.exercise-item__header .action {
     cursor: pointer;
     padding: 5px;
 }
-.exercise-item__name .action i{
+.exercise-item__header .action i{
     color: #fff;
 }
 
@@ -94,21 +113,21 @@
     text-align: left;
     vertical-align: middle;
 }
+/* .modal-body button {
+    font-size: 14px;
+    font-weight: bold;
+    background: #0099ff;
+    border: none;
+    border-radius: 25px;
+    color: #fff;
+    padding: 8px 17px;
+    cursor: pointer;
+} */
 .modal-header{
-    font-size: 15px;
+    font-size: 16px;
     font-weight: bold;
 }
-.modal-body span.title-modal{
-    font-weight: bold;
-}
-.modal-body__item {
-    margin-bottom: 10px;
-}
-.modal-body__bottom {
-    margin: 30px 0px 5px 0px;
-    text-align: center;
-}
-.modal-body button {
+.modal-footer button {
     font-size: 14px;
     font-weight: bold;
     background: #0099ff;

@@ -16,7 +16,10 @@
     font-weight: bold;
     color: #fff;
 }
-.section-header__button{
+.section-header__button {
+    display: flex;
+}
+.section-header__button-project{
     font-size: 14px;
     font-weight: bold;
     background: #0099ff;
@@ -25,6 +28,17 @@
     color: #fff;
     padding: 8px 17px;
     cursor: pointer;
+}
+.section-header__button-course{
+    font-size: 14px;
+    font-weight: bold;
+    background: #FFB155;
+    border: none;
+    border-radius: 25px;
+    color: #fff;
+    padding: 8px 17px;
+    cursor: pointer;
+    margin-left:10px;
 }
 .section-content__item {
     background: #121318;
@@ -42,10 +56,80 @@
 }
 .section-content__item__name{
     width: 100%;
-    padding: 12px 20px;
+    padding: 12px 13px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.section-content__item__name .list-action {
+    position: absolute;
+    background: #000;
+    padding: 10px;
+    z-index: 556;
+    bottom: -33px;
+    right: -78px;
+    color: #fff;
+    font-size: 14px;
+    display: none;
+}
+.section-content__item__name .list-action.active{
+    display: block;
+}
+.section-content__item__name .edit-action {
+    margin-bottom: 5px;
+    cursor: pointer;
+}
+.edit-action:hover, .delete-action:hover {
+    color: #0099ff;
+}
+.section-content__item__name .delete-action{
+    cursor: pointer;
+}
+.section-content__item__name .action {
+    cursor: pointer;
+    padding: 5px;
+}
+.section-content__item__name .action i{
+    color: #fff;
 }
 .section-content__item__name a{
     font-weight: bold;
     color: #fff;
     text-decoration: none;
+}
+.list-action {
+    position: absolute;
+    background: #000;
+    bottom: 0;
+    right: 0;
+}
+.modal {
+    text-align: center;
+    padding: 0 !important;
+}
+.modal:before {
+    content: '';
+    display: inline-block;
+    height: 100%;
+    vertical-align: middle;
+    margin-right: -4px;
+}
+.modal-dialog {
+    display: inline-block;
+    text-align: left;
+    vertical-align: middle;
+}
+.modal-header{
+    font-size: 16px;
+    font-weight: bold;
+}
+.modal-footer button {
+    font-size: 14px;
+    font-weight: bold;
+    background: #0099ff;
+    border: none;
+    border-radius: 25px;
+    color: #fff;
+    padding: 8px 17px;
+    cursor: pointer;
 }
