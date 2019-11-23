@@ -1,0 +1,9 @@
+.body-section {
+    display: flex;
+    min-height: 100%;
+}
+.page-content{
+    background: rgba(33,33,33,.9);
+    width:100%;
+    margin-left: 234px;
+}

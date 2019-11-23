@@ -1,0 +1,47 @@
+.sidebar{
+    transition-duration: .5s;
+    width: 243px!important;
+    background: #000;
+    height: 100%;
+    position: fixed;
+}
+.logo-home {
+    padding: 20px 20px 24px 30px;
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+}
+.logo-home img {
+    width: 50px;
+}
+.home-name{
+    color: #fff;
+    font-size: 16px;
+    font-weight: bold;
+    margin-left: 10px;
+}
+.menu-list {
+    padding: 20px;
+
+}
+.menu-item {
+    cursor: pointer;
+    /* background: #1D1C23; */
+    padding: 10px 5px;
+    margin-bottom: 5px;
+    /* text-align: center; */
+    border-radius: 5px;
+}
+.menu-item:hover {
+    background: rgb(24, 24, 24);
+    border: 1px solid #28252B;
+}
+.menu-item:hover a{
+    color: #fff;
+}
+.menu-item a {
+    color: #727176;
+    font-weight: bold;
+    text-decoration: none;
+    font-size: 16px;
+}

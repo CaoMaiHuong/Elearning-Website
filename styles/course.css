@@ -1,0 +1,90 @@
+.list-course {
+    margin-top: 90px;
+    width: 100%;
+    padding: 0px 30px;
+}
+.course-item {
+    margin-bottom: 30px;
+}
+
+.course-item__title {
+    color:#fff;
+}
+.item__name {
+    align-items: center;
+    margin-bottom: 25px;
+}
+.item__name span{
+    margin-left: 5px;
+}
+.course-item__exercise{
+
+}
+.exercise-list {
+
+}
+.exercise-item{
+    color: #fff;
+    background: #121318;
+    border-radius: 5px;
+    padding: 20px;
+    margin-bottom: 15px;
+    cursor: pointer;
+}
+.exercise-item__name {
+    font-size: 16px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+.exercise-item__description {
+    height: 60px;
+    width: 100%;
+    /* overflow: hidden; */
+    overflow:hidden;
+    text-overflow: ellipsis;
+    content: "";
+    position: relative;
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+}
+.modal {
+    text-align: center;
+    padding: 0 !important;
+}
+.modal:before {
+    content: '';
+    display: inline-block;
+    height: 100%;
+    vertical-align: middle;
+    margin-right: -4px;
+}
+.modal-dialog {
+    display: inline-block;
+    text-align: left;
+    vertical-align: middle;
+}
+.modal-header{
+    font-size: 15px;
+    font-weight: bold;
+}
+.modal-body span.title-modal{
+    font-weight: bold;
+}
+.modal-body__item {
+    margin-bottom: 10px;
+}
+.modal-body__bottom {
+    margin: 30px 0px 5px 0px;
+    text-align: center;
+}
+.modal-body button {
+    font-size: 14px;
+    font-weight: bold;
+    background: #0099ff;
+    border: none;
+    border-radius: 25px;
+    color: #fff;
+    padding: 8px 17px;
+    cursor: pointer;
+}
