@@ -5,5 +5,7 @@ $( document ).ready(function() {
     $('.menu-action').click(function(){        
         $(this).siblings('.list-action').toggleClass('active');
     });
-    
+    $('.avartar').click(function(){        
+        $('.menu-down').toggleClass('active');
+    });
 });

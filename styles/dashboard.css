@@ -133,3 +133,38 @@
     padding: 8px 17px;
     cursor: pointer;
 }
+
+.avartar {
+    width: 35px;
+    height: 35px;
+    background: red;
+    cursor: pointer;
+}
+.menu-down {
+    display: none;
+    color: #fff;
+    width: 150px;
+    background: #000;
+    position: absolute;
+    right: 0;
+    margin-right: 15px;
+    margin-top: 5px;
+    border-radius: 4px;
+}
+.menu-down.active {
+    display: block;
+}
+.profile {
+    padding: 10px;
+}
+.profile i, .logout i{
+    margin-right: 5px;
+}
+.logout {
+    padding: 10px;
+}
+.profile:hover, .logout:hover {
+    background: #18242D;
+    border-left: 3px solid #276692;
+    cursor: pointer;
+}
