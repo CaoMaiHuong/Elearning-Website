@@ -78,6 +78,17 @@
 }
 .sublist-item__name {
     color: #929292;
+    width: 100%;
+    cursor: pointer;
+}
+.sublist-item__name input {
+    border: none;
+    width: 85%;
+    border-radius: 3px;
+    background: #bdbdbd;
+    color: #000;
+    padding-left: 4px;
+    outline: none;
 }
 .sublist-item__delete:hover {
     color: #bdbdbd;
