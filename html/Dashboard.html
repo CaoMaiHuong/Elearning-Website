@@ -5,6 +5,7 @@
         </title>
         <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+        <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
         <link rel="stylesheet" type="text/css" href="../styles/sidebar.css">
         <link rel="stylesheet" type="text/css" href="../styles/header.css">
         <link rel="stylesheet" type="text/css" href="../styles/main.css">
@@ -152,12 +153,28 @@
                                             <img src="../images/background.jpg">
                                         </div> 
                                         <div class="section-content__item__name">
-                                            <a href='./Project.html'>
-                                                View all
+                                            <a href='#'>
+                                                Project 1
                                             </a>
+                                            <div class="action menu-action">
+                                                <i class="fas fa-ellipsis-v"></i>
+                                            </div>
+                                            <div class="list-action">
+                                                <div class="edit-action">
+                                                    Rename
+                                                </div>
+                                                <div class="delete-action">
+                                                    Move to Trash
+                                                </div>
+                                            </div>
                                         </div>      
                                     </div>
                                 </div>
+                            </div>
+                            <div class="view-all-section">
+                                <a href="Project.html" class="view-all-link">
+                                    VIEW ALL PROJECT
+                                </a>
                             </div>
                         </div>
                     </div>
@@ -236,12 +253,28 @@
                                             <img src="../images/background.jpg">
                                         </div> 
                                         <div class="section-content__item__name">
-                                            <a href='./Course.html'>
-                                                View all
+                                            <a href='#'>
+                                                Project 1
                                             </a>
+                                            <div class="action menu-action">
+                                                <i class="fas fa-ellipsis-v"></i>
+                                            </div>
+                                            <div class="list-action">
+                                                <div class="edit-action">
+                                                    Rename
+                                                </div>
+                                                <div class="delete-action">
+                                                    Move to Trash
+                                                </div>
+                                            </div>
                                         </div>      
                                     </div>
                                 </div>
+                            </div>
+                            <div class="view-all-section">
+                                <a href="Project.html" class="view-all-link">
+                                    VIEW ALL COURSE
+                                </a>
                             </div>
                         </div>
                     </div>
@@ -267,7 +300,8 @@
                                 </div>
                                 <div class="form-group course-image">
                                     <label>Hình ảnh: </label>
-                                    <input type="file" name="image" accept="image/*">
+                                    <input type="file" id="fileUpload" multiple="multiple" name="image" accept="image/*">
+                                    <div id="image-holder"></div>
                                 </div>
                                 <div class="form-group course-image">
                                     <label>Dsnh sách sinh viên: </label>
@@ -282,8 +316,10 @@
                 </div>
             </div>
         </div>
+        <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
         <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+        
         <script type="text/javascript" src="../script/dashboard.js"></script>
     </body>
 </html>

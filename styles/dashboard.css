@@ -168,3 +168,45 @@
     border-left: 3px solid #276692;
     cursor: pointer;
 }
+.view-all-link {
+    padding: 15px 20px;
+    border: 1px solid #999;
+    color: #ccc;
+    text-align: center;
+    width: 100%;
+    cursor: pointer;
+    font-weight: bold;
+}
+.view-all-link:hover {
+    text-decoration: none;
+    color: #00c2a9;
+}
+.view-all-section {
+    margin: 25px 0px;
+    text-align: center;
+}
+.thumb-image {
+    margin-top: 10px;
+    width: 100px;
+    position: relative;
+    padding: 5px;
+}
+.modal-body {
+    max-height: 435px;
+    overflow-y: scroll;
+}
+::-webkit-scrollbar {
+    width: 5px;
+}
+::-webkit-scrollbar-track {
+    background: #f1f1f1; 
+    border-radius: 10px;
+}
+::-webkit-scrollbar-thumb {
+    background: #888; 
+    border-radius: 10px;
+
+}
+::-webkit-scrollbar-thumb:hover {
+    background: #666; 
+}
