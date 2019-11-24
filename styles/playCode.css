@@ -1,0 +1,115 @@
+.navbar{
+    display: flex;
+    min-height: 37px;
+    width: 100%;
+    background: #161616;
+    color: #929292;
+    align-items: center;
+    padding-right: 10px;
+    margin: 0;
+    border-radius: 0;
+}
+.navbar-logo{
+    margin: 0px 13px;
+    cursor: pointer;
+}
+.navbar-title {
+    margin: 0px 10px;
+    font-weight: bold;
+    cursor: pointer;
+}
+.navbar-menu {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+.navbar-menu__left .menu-left__new {
+    margin: 0px 10px;
+    font-weight: bold;
+    cursor: pointer;
+} 
+.navbar-menu__right {
+    display: flex;
+    align-items: center;
+}
+.menu-right__run, .menu-right__console, .menu-right__setting {
+    height: 14px;
+    margin: 0px 8px;
+    color: #929292;
+    cursor: pointer;
+}
+.menu-right__run:hover, .menu-right__console:hover, .menu-right__setting:hover{
+    color: #bdbdbd;
+}
+.menu-right__username {
+    margin: 0px 8px;
+    cursor: pointer;
+}
+.svg-icon {
+    fill: currentColor;
+}
+.playcode-body {
+    background: #161616;
+    height: 100%;
+    display: flex;
+}
+.sidebar{
+    width: 190px;
+}
+.sidebar-item {
+    padding: 13px 0;
+    margin: 0 13px;
+    border-top: 1px solid #1b1b1b;
+}
+.sidebar-item:first-child {
+    border-top: 0px;
+}
+.sidebar-item__title {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.item__title-name {
+    color: #4c4c4c;
+    font-weight: 700;
+}
+.sidebar-item__sublist {
+    padding: 5px 0px 0px 0px;
+}
+.sublist-item__name {
+    color: #929292;
+}
+.sublist-item__delete:hover {
+    color: #bdbdbd;
+    cursor: pointer;
+}
+.item__title-icon:hover {
+    color: #bdbdbd;
+    cursor: pointer;
+}
+.sublist-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 3px;
+}
+.code-section {
+    width: 40%;
+    border-radius: 7px;
+    background: #4c4c4c;
+}
+.input-add {
+    display: none;
+}
+.input-add.active {
+    display: block;
+}
+.input-add input {
+    width: 100%;
+    border-radius: 3px;
+    background: #bdbdbd;
+    border: none;
+    padding: 0px 4px;
+    height: 25px;
+    outline: none;
+}
