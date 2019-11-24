@@ -87,7 +87,7 @@
 }
 .section-content__item__name .action {
     cursor: pointer;
-    padding: 5px;
+    padding: 0px 5px;
 }
 .section-content__item__name .action i{
     color: #fff;
