@@ -81,6 +81,9 @@
     width: 100%;
     cursor: pointer;
 }
+.sublist-item.active .sublist-item__name {
+    color: #72a24d;
+}
 .sublist-item__name input {
     border: none;
     width: 85%;
