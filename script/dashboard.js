@@ -36,4 +36,9 @@ $( document ).ready(function() {
             alert("Please select only images");
         }
     });
+
+    $('#edit-info').click(function(){        
+        $('#openModalEditProfile').modal('show');
+    });
+    
 });

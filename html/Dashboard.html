@@ -48,6 +48,9 @@
             <div class="page-content">
                 <header class="header custom-header">
                     <div class="header-right">
+                        <div class="edit-profile" style="color: #fff; margin-right: 10px;" id="edit-info">
+                            Sửa thông tin
+                        </div>
                         <div class="avartar-user">
                             <div class="avartar">
                             </div>
@@ -312,6 +315,54 @@
                         <div class="modal-footer">
                             <button class="start-exam">Thêm khóa học</button>
                         </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div id="openModalEditProfile" class="modal fade" role="dialog">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-content__top">
+                        Edit Profile
+                        <div class="modal-bottom__avatar">
+                            <div class="avatar-image">
+                                <img src="../images/background.jpg">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="modal-content__bottom">
+                        <div class="edit-content">
+                            
+                            <div class="modal-bottom__info">
+                                <form class="signInForm signUpForm">
+                                    <div class="username-field">
+                                        <label class="input__label" for="Username">Username</label>
+                                        <input class="input__field" name="Username" type="text" value="CMHuong" required>
+                                    </div>
+                                    <div class="email-field">
+                                        <label class="input__label" for="Email">Email</label>
+                                        <input class="input__field" name="Email" type="text" value="huongcm@gmail.com" required>
+                                    </div>
+                                    <div class="class-field">
+                                        <label class="input__label" for="Class">Class</label>
+                                        <input class="input__field" name="Class" type="text" value="12">
+                                    </div>
+                                    <div class="password-field">
+                                        <label class="input__label" for="Password">Password</label>
+                                        <input class="input__field" name="Password" type="password" required>
+                                    </div>
+                                    
+                                </form>
+                            </div>
+                            
+                           
+                        </div>
+                        <div class="edit-submit">
+                                <button type="submit" id="signup" class="edit-submit__button">
+                                    Save
+                                </button>
+                            </div>
+                        
                     </div>
                 </div>
             </div>
